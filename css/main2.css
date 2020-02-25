@@ -1,0 +1,338 @@
+a {
+    cursor: pointer;
+}
+
+header {
+    background-color: black;
+    min-height: 580px
+}
+
+hr {
+    border: 1px solid black;
+    width: 10%;
+    margin-left: 0px;
+}
+
+/***********************************
+HEADER SECTION STARTS
+************************************/
+
+.navbar-nav {
+    position: relative;
+    z-index: 7;
+}
+
+.nav-item a {
+    color: blue !important;
+}
+
+.header-main-heading {
+    font-size: 3rem;
+    font-weight: bolder;
+    z-index: 2;
+    margin-top: 43px;
+}
+
+.header-sub-heading {
+    font-weight: bold;
+    z-index: 2;
+    margin-bottom: 9px;
+}
+
+.header-heading-info {
+    text-transform: capitalize;
+    font-weight: lighter;
+    font-size: 17px;
+    z-index: 2;
+}
+
+.header-btn {
+    border: 1px solid rgb(141, 139, 139);
+    color: rgb(141, 139, 139);
+    z-index: 2;
+    margin-top: 0 !important;
+}
+
+.header-first-image {
+    margin-top: 15%;
+    width: 65%;
+    position: absolute;
+    margin-left: 15%;
+    z-index: 2;
+}
+
+.header-second-image {
+    margin-top: 20%;
+    width: 65%;
+    position: absolute;
+    margin-left: 45%;
+    transform: rotate(15deg);
+    z-index: 1;
+}
+
+/***********************************
+HEADER SECTION ENDS
+************************************/
+
+
+/***********************************
+ABOUT US SECTION STARTS 
+************************************/
+
+.about-us {
+    background-color: #f8f8f8;
+    position: relative;
+    z-index: 3;
+    padding: 6% 0%;
+}
+
+.about-us-margin {
+    margin-top: 5%;
+}
+
+/***********************************
+ABOUT US SECTION ENDS
+************************************/
+
+/***********************************
+JOIN US SECTION STARTS
+************************************/
+
+.join-us-main {
+    background: url('/images/flaunter-com-RC7bYyG5PUs-unsplash.jpg') no-repeat center top;
+    background-size: cover;
+    min-height: 580px;
+    position: relative;
+}
+
+.join-us-main-overlay {
+    background-color: RGBA(12, 11, 11, 0.82);
+    min-height: 580px;
+}
+
+.text-become-a-model-div {
+    margin-top: 150px;
+    color: #fff;
+    display: inline-block;
+}
+
+.text-become-a-model {
+    font-size: 60px;
+    padding: 10px 20px;
+    margin: 15px 0;
+}
+
+.join-us-paragraph {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 20px;
+    color: #8f8f8f;
+    margin-top: 2px;
+}
+
+.join-us-btn {
+    background-color: #fff;
+    color: black;
+    margin-top: 10px;
+}
+
+.join-us-btn2 {
+    background-color: blue;
+    color: white;
+    margin-left: 30px;
+}
+
+#join-us {
+    background-color: rgba(155, 59, 245, 0.452);
+}
+
+/***********************************
+JOIN US SECTION ENDS
+************************************/
+
+/***********************************
+MODELS SECTION STARTS
+************************************/
+
+#models {
+    background-color: #f8f8f8;
+    position: relative;
+    z-index: 3;
+}
+
+.overlay-container {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: RGBA(12, 11, 11, 0.82);
+}
+
+.overlay1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.726)
+}
+
+.text2 {
+    color: black;
+    text-align: center;
+}
+
+.text2 p {
+    margin-bottom: 0px !important;
+}
+
+.overlay-container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.view-profile-btn {
+    background-color: blue;
+    color: white;
+}
+
+.view-more-btn {
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}
+
+/***********************************
+MODELS SECTION ENDS
+************************************/
+
+
+/***********************************
+MODEL-INFO SECTION STARTS
+************************************/
+
+.model-info-section {
+    background-color: #f8f8f8;
+}
+
+.overlay-container-profile {
+    position: relative;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.info {
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+/***********************************
+MODEL-INFO SECTION ENDS
+************************************/
+
+/***********************************
+FOOTER SECTION STARTS
+************************************/
+
+#footer {
+    background-color: black;
+    color: white;
+}
+
+/* .footer-info {
+    width: 100%;
+} */
+
+/***********************************
+FOOTER SECTION ENDS
+************************************/
+
+
+
+
+/***********************************
+MEDIA QUERIES
+************************************/
+@media only screen and (max-width: 1200px) {
+
+    .header-first-image,
+    .header-second-image {
+        margin-top: 40%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .header-image {
+        display: none;
+    }
+
+    .header-text {
+        margin-top: 65px;
+        width: 100% !important;
+    }
+
+    .about-us p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 584px) {
+    .text-become-a-model {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .overlay-container {
+        width: 50%;
+        margin: 5px auto;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+
+    .header-main-heading {
+        font-size: 20px;
+    }
+
+    .header-btn {
+        margin-left: 0px !important;
+    }
+
+    .model-info-section h5,
+    .model-info-section h9 {
+        font-size: 12px !important;
+    }
+}
