@@ -1,3 +1,8 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 a {
     cursor: pointer;
 }
@@ -99,7 +104,7 @@ JOIN US SECTION STARTS
 ************************************/
 
 .join-us-main {
-    background: url('/images/flaunter-com-RC7bYyG5PUs-unsplash.jpg') no-repeat center top;
+    background: url('./images/flaunter-com-RC7bYyG5PUs-unsplash.jpg') no-repeat center top;
     background-size: cover;
     min-height: 580px;
     position: relative;
