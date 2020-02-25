@@ -27,10 +27,6 @@ HEADER SECTION STARTS
     z-index: 7;
 }
 
-.nav-item a {
-    color: blue !important;
-}
-
 .header-main-heading {
     font-size: 3rem;
     font-weight: bolder;
@@ -104,7 +100,7 @@ JOIN US SECTION STARTS
 ************************************/
 
 .join-us-main {
-    background: url('./images/flaunter-com-RC7bYyG5PUs-unsplash.jpg') no-repeat center top;
+    background: url('../images/flaunter-com-RC7bYyG5PUs-unsplash.jpg') no-repeat center top;
     background-size: cover;
     min-height: 580px;
     position: relative;
@@ -128,7 +124,6 @@ JOIN US SECTION STARTS
 }
 
 .join-us-paragraph {
-    font-family: 'Alegreya Sans', sans-serif;
     font-size: 20px;
     color: #8f8f8f;
     margin-top: 2px;
@@ -197,12 +192,11 @@ MODELS SECTION STARTS
     right: 0;
     height: 30%;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.726)
+    background-color: rgb(255, 255, 255)
 }
 
 .text2 {
     color: black;
-    text-align: center;
 }
 
 .text2 p {
@@ -228,6 +222,10 @@ MODELS SECTION STARTS
 .view-profile-btn {
     background-color: blue;
     color: white;
+}
+
+.view-profile-btn:hover {
+    color: white !important;
 }
 
 .view-more-btn {
@@ -321,7 +319,7 @@ MEDIA QUERIES
 
 @media only screen and (max-width: 576px) {
     .overlay-container {
-        width: 50%;
+        width: 75%;
         margin: 5px auto;
     }
 }
