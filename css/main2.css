@@ -100,7 +100,7 @@ JOIN US SECTION STARTS
 ************************************/
 
 .join-us-main {
-    background: url('../images/flaunter-com-RC7bYyG5PUs-unsplash.jpg') no-repeat center top;
+    background: url('../images/flaunter-com-RC7bYyG5PUs-unsplash-1.jpg') no-repeat center top;
     background-size: cover;
     min-height: 580px;
     position: relative;
@@ -321,6 +321,10 @@ MEDIA QUERIES
     .overlay-container {
         width: 75%;
         margin: 5px auto;
+    }
+
+    .footer {
+        font-size: 10px !important;
     }
 }
 
